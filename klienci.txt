@@ -1,0 +1,8 @@
+ID   Imię         Nazwisko        Wiek  Staż   Karnet     Region          Data doł    
+---------------------------------------------------------------------------------------
+1    Anna         Kowalska        28    14     Aktywny    Katowice        2024-07-15  
+2    Michał       Nowak           34    2      Aktywny    Gliwice         2025-07-14  
+3    Karolina     Zielińska       22    0      Nieaktywny Częstochowa     2025-09-13  
+4    Paweł        Bąk             41    36     Aktywny    Rybnik          2022-09-12  
+5    Ewa          Sikora          30    7      Nieaktywny Dąbrowa Górnicza 2025-02-11  
+15   ji           dgs             14    0      Aktywny    Częstochowa     2025-09-23  

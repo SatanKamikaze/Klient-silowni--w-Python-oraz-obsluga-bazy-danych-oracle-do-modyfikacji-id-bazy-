@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tableClients</class>
+ <widget class="QMainWindow" name="tableClients">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Siłownia - Panel Klientów</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="lblDateTime">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>2025-09-11 14:45:00</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Imię</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nazwisko</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Wiek</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Staż</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Region</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Karnet</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Data dołączenia</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnAddClient">
+      <property name="text">
+       <string>Dodaj Klienta</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnSortRegion">
+      <property name="text">
+       <string>Sortuj wg. zamieszkania</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnDeleteClient">
+      <property name="text">
+       <string>Usuń Klienta</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnShowClients">
+      <property name="text">
+       <string>Wyświetl Klientów</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>822</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

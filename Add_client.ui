@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddClientDialog</class>
+ <widget class="QDialog" name="AddClientDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>328</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dodaj Klienta</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lbName">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Imię:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QLabel" name="lbSurname">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Nazwisko:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="lbAge">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wiek:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0" colspan="2">
+    <widget class="QLabel" name="lbStaz">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Staż (mies.):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="0" colspan="2">
+    <widget class="QLabel" name="lbKarnet">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Karnet:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="0" colspan="2">
+    <widget class="QLabel" name="lbRegion">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Region:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="28" column="0" colspan="2">
+    <widget class="QLabel" name="lbData">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Data dołączenia:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="33" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="lineImie">
+     <property name="maxLength">
+      <number>30</number>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLineEdit" name="lineNazwisko">
+     <property name="maxLength">
+      <number>50</number>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="0">
+    <widget class="QComboBox" name="comboKarnet">
+     <item>
+      <property name="text">
+       <string>Aktywny</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nieaktywny</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="25" column="0">
+    <widget class="QComboBox" name="comboRegion">
+     <item>
+      <property name="text">
+       <string>SLK - Katowice</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLCZ - Częstochowa</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLGL - Gliwice</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLDG - Dąbrowa Górnicza</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLZA - Zabrze</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLCH - Chorzów</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLTY - Tychy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLSW - Sosnowiec</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLRY - Rybnik</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SLBY - Bytom</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="30" column="0">
+    <widget class="QDateEdit" name="dateDolaczenia">
+     <property name="displayFormat">
+      <string>yyyy-MM-dd</string>
+     </property>
+     <property name="date">
+      <date>
+       <year>2025</year>
+       <month>9</month>
+       <day>11</day>
+      </date>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QSpinBox" name="spinWiek">
+     <property name="minimum">
+      <number>14</number>
+     </property>
+     <property name="maximum">
+      <number>120</number>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QSpinBox" name="spinStaz">
+     <property name="maximum">
+      <number>600</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AddClientDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AddClientDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
